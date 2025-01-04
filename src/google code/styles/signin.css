@@ -1,0 +1,70 @@
+.subtitle {
+    font-size: 16px;
+    color: #e8eaed;
+    margin-bottom: 30px;
+}
+
+.forgot-email {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.forgot-email:hover {
+    opacity: 0.8;
+}
+
+.guest-mode {
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.guest-mode a {
+    color: #8ab4f8;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.guest-mode a:hover {
+    opacity: 0.8;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.create-account {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.create-account:hover {
+    opacity: 0.8;
+}
+
+/* Loading animation */
+@keyframes loading {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading .next-button::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+    border: 2px solid #202124;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loading 1s linear infinite;
+} 

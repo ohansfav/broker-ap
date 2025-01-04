@@ -1,0 +1,35 @@
+.subtitle {
+    font-size: 16px;
+    color: #e8eaed;
+    margin-bottom: 30px;
+}
+
+.forgot-email {
+    color: #8ab4f8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.guest-mode {
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.guest-mode button {
+    color: #8ab4f8;
+    margin-left: 5px;
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.create-account {
+    color: #8ab4f8;
+    font-size: 14px;
+    font-weight: 500;
+} 

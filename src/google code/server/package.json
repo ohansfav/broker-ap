@@ -1,0 +1,13 @@
+{
+    "name": "google-login-server",
+    "version": "1.0.0",
+    "description": "Backend server for Google login clone",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "cors": "^2.8.5"
+    }
+} 

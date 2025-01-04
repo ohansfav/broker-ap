@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "email": "testing@test.com",
+            "password": "mypassword123",
+            "createdAt": "2025-01-01T18:37:39.213Z"
+        },
+        {
+            "email": "test@example.com",
+            "password": "$2b$10$QiC9nElnLITZeIW/esb6muvvLAGD3FLgao5HNf4PKeVvPlsrV4r26",
+            "createdAt": "2025-01-01T18:39:18.232Z"
+        }
+    ]
+}
