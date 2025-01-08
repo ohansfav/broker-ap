@@ -67,11 +67,10 @@ function App() {
                   type={showPassword ? "text" : "password"}
                   className="input-field" 
                   id="password" 
-                  name="current-password"
+                  name="new-password"
                   placeholder="Enter your password" 
                   required
-                  autoComplete="off"
-                  data-lpignore="true"
+                  autoComplete="new-password"
                 />
                 <div className="show-password">
                   <input 
@@ -149,4 +148,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

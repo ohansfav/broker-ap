@@ -1,4 +1,4 @@
-/* Common styles for both pages */
+/* Common styles for both pages
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +15,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-}
+} */
 
-.container {
+/* .container {
     background-color: #2d2d2d;
     border-radius: 8px;
     padding: 48px 40px 36px;
@@ -25,10 +25,11 @@ body {
     width: 100%;
     max-width: 450px;
     position: relative;
-    top: -5vh; /* Move container slightly up from center */
-}
+    top: -5vh; Move container slightly up from center */
+/* } */
+/* comment */
 
-.google-logo {
+/* .google-logo {
     width: 40px;
     height: 40px;
     margin-bottom: 20px;
@@ -96,4 +97,4 @@ footer {
     color: #e8eaed;
     text-decoration: none;
     margin-left: 20px;
-} 
+}  */
